@@ -11,6 +11,8 @@ print("\t4.- División de dos números        --")
 print("\t5.- Cociente                       --")
 print("\t6.- Resto                          --")
 print("\t7.- Exponenciación de dos números  --")
+print("\t8.- Area triangulo                 --")
+
 
 
 
@@ -60,3 +62,9 @@ elif(opc==7):
     y=int(input("Introduzca el segundo número: "))
     print(f"{x}*{x}={x*x}")
     print(f"{y}*{y}={y*y}")
+
+elif(opc==8):
+    listaTriangulos=[(3,2),(1,5),(6,7)]
+    for triangulo in listaTriangulos:
+        areaTriangulo=triangulo[0]*triangulo[1]/2
+        print(f"El área del triángulo de base {triangulo[0]} y altura {triangulo[1]} es {areaTriangulo} metros cuadrados")
