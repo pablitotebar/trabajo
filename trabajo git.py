@@ -12,6 +12,8 @@ print("\t5.- Cociente                       --")
 print("\t6.- Resto                          --")
 print("\t7.- Exponenciación de dos números  --")
 print("\t8.- Area triangulo                 --")
+print("\t9.- Area circulo                   --")
+
 
 
 
@@ -68,3 +70,9 @@ elif(opc==8):
     for triangulo in listaTriangulos:
         areaTriangulo=triangulo[0]*triangulo[1]/2
         print(f"El área del triángulo de base {triangulo[0]} y altura {triangulo[1]} es {areaTriangulo} metros cuadrados")
+        
+elif(opc==9):
+    import math
+    listacirculo=[3,6,1,9,5]
+    for circulo in listacirculo:
+        print(circulo*circulo*math.pi)
