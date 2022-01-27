@@ -10,6 +10,8 @@ print("\t3.- Multiplicación de dos números  --")
 print("\t4.- División de dos números        --")
 print("\t5.- Cociente                       --")
 print("\t6.- Resto                          --")
+print("\t7.- Exponenciación de dos números  --")
+
 
 
 opc = int(input("Introduzca una opción: "))
@@ -52,3 +54,9 @@ elif(opc==6):
     print(f"{x}%{y}={x%y}")
     if(y==0):
         print("0 es un numero valido")
+
+elif(opc==7):
+    x=int(input("Introduzca el primer número: "))
+    y=int(input("Introduzca el segundo número: "))
+    print(f"{x}*{x}={x*x}")
+    print(f"{y}*{y}={y*y}")
