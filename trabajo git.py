@@ -8,9 +8,16 @@ print("\t1.- Suma de dos números            --")
 print("\t2.- Resta de dos números           --")
 print("\t3.- Multiplicación de dos números  --")
 print("\t4.- División de dos números        --")
+
 print("\t5.- Cociente 2                      --")
+print("\t5.- Cociente 1                       --")
+
 print("\t6.- Resto                          --")
 print("\t7.- Exponenciación de dos números  --")
+print("\t8.- Area triangulo                 --")
+print("\t9.- Area circulo                   --")
+
+
 
 
 
@@ -60,3 +67,15 @@ elif(opc==7):
     y=int(input("Introduzca el segundo número: "))
     print(f"{x}*{x}={x*x}")
     print(f"{y}*{y}={y*y}")
+
+elif(opc==8):
+    listaTriangulos=[(3,2),(1,5),(6,7)]
+    for triangulo in listaTriangulos:
+        areaTriangulo=triangulo[0]*triangulo[1]/2
+        print(f"El área del triángulo de base {triangulo[0]} y altura {triangulo[1]} es {areaTriangulo} metros cuadrados")
+        
+elif(opc==9):
+    import math
+    listacirculo=[3,6,1,9,5]
+    for circulo in listacirculo:
+        print(circulo*circulo*math.pi)
