@@ -12,7 +12,7 @@ print("\t4.- División de dos números        --")
 print("\t5.- Cociente 2                      --")
 print("\t5.- Cociente 1                       --")
 
-print("\t6.- Resto                          --")
+print("\t6.- Resto     2                     --")
 print("\t7.- Exponenciación de dos números  --")
 print("\t8.- Area triangulo                 --")
 print("\t9.- Area circulo                   --")
